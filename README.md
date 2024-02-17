@@ -46,19 +46,15 @@
 
 # Examples
 ### Pick and Place
-![UR3 demostrating a point to point motion between two surfaces](universal_robots/ur3/Animation/gifmaker_me.gif)
+<img src="/universal_robots/ur3/Animation/gifmaker_me.gif" width="250" height="250"/>
 
 ### Rotating about a point
-![UR5 demostrating a motion which keeps the tool tip at a fixed point while rotating](universal_robots/ur5/Animation/gifmaker_me.gif)
-
+<img src="/universal_robots/ur5/Animation/gifmaker_me.gif" width="250" height="250"/>
 
 ### Scanning
-![UR10 demostrating a scanning motion of a boundary with fixed attitude](universal_robots/ur10/Animation/gifmaker_me.gif)
-
-![xArm6 demostrating a scanning motion of a boundary with free attitude](ufactory/xarm6/Animation/gifmaker_me.gif)
-
-![IRB120 demostrating a scanning motion of a boundary with fixed attitude and stowing after completion](abb/irb120/Animation/gifmaker_me.gif)
-
+<img src="/ufactory/xarm6/Animation/gifmaker_me.gif" width="250" height="250"/>
+<img src="/universal_robots/ur10/Animation/gifmaker_me.gif" width="250" height="250"/>
+<img src="/abb/irb120/Animation/gifmaker_me.gif" width="250" height="250"/>
 
 # Add your own custom robotic arm
 
