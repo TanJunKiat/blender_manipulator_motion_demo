@@ -9,19 +9,21 @@ This repository is to provide a simple and easy-to-use alterative for people tha
 
 Surprisingly, the features in Blender are very relatable and translatable to the context of manipulators, like being able to do either linear or point-to-point motion and to control joint speed.
 
+This README will bring you through on how to start motion planning using Blender and some of the basic functions and features that might be useful for your specific application.
+
 # Getting started
 1. Install [Blender](https://docs.blender.org/manual/en/latest/getting_started/installing/index.html)
 2. Download/clone this repository
 ```
-git clone 
+git clone https://github.com/TanJunKiat/blender_manipulator_motion_demo
 ```
-3. Open the desired robotic arm file (e.g. UR10.blend)
+3. Open the desired robotic arm blender file (e.g. UR10.blend)
 
 # Basic Usage / Features
 
 ## Moving via tool tip reference
 1. Creating tool tip reference
-<img src="/resources/getting_started/1_moving_via_tool_tip/1_insert_reference.png"  height="250"/>
+<img src="/resources/getting_started/1_moving_via_tool_tip/1_insert_reference.png"  width="250"/>
 For the tool tip, we will be using either of these 3, a plain axes, an arrow axes, or a single arrow. 
 
 > [!NOTE]
@@ -31,7 +33,7 @@ For the tool tip, we will be using either of these 3, a plain axes, an arrow axe
 > The initial location of the tool tip reference should be conicide with the initial position of the physical tool tip, while the robotic arm is in its neutral state.
 
 2. Linking tool tip reference to armature
-<img src="/resources/getting_started/1_moving_via_tool_tip/2_linking_tool_tip_reference.png" height="250"/>
+<img src="/resources/getting_started/1_moving_via_tool_tip/2_linking_tool_tip_reference.png" width="250"/>
 
 - Under "Bone constraint properties" of the last bone, there should be a Inverse Kinematics (IK) element. Change the "Target" to the tool tip reference object that you just created
 
@@ -48,6 +50,7 @@ The tool tip reference position can be changed under the "Object properties". Th
 <img src="/resources/getting_started/2_inserting_keyframe/1_time_line.png" height="150"/>
 
 Under the "Timeline" panel, drag the time frame pointer to the desired time frame
+
 > [!TIP]
 > Remember to change the frame rate under the "Output Properties" to get the desired translation from timeframe to time.
 
@@ -79,7 +82,7 @@ Under your armature and the "Object Data Properties" tab, the inverse kinematics
 # Intermediate Features
 ## Toggling tool tip behaviour
 
-<img src="/resources/intermediate_features/toggling_tool_tip_behaviour/1_changing_joint_limits.png" height="250"/>
+<img src="/resources/intermediate_features/toggling_tool_tip_behaviour/1_changing_joint_limits.png" width="250"/>
 
 - Under "Bone constraint properties" of the last bone and the Inverse Kinematics (IK) tab, you can animate the following parameters:
 
@@ -97,7 +100,7 @@ Under your armature and the "Object Data Properties" tab, the inverse kinematics
 
 ## Changing joint limits
 
-<img src="/resources/intermediate_features/changing_joint_limits/1_changing_joint_limits.png" height="250"/>
+<img src="/resources/intermediate_features/changing_joint_limits/1_changing_joint_limits.png" width="250"/>
 
 Under "Bone constraint properties" of the bones, there should be two properties, "Limit Rotation" and "Limit Location". 
 
@@ -107,7 +110,7 @@ Since all the joints of a manipulator are rotaries, all the axes in the limit ro
 
 # Useful Tips
 ## Clearing animations
-<img src="/resources/useful_tips/clearing_animations/1_clear_animation.png" height="250"/>
+<img src="/resources/useful_tips/clearing_animations/1_clear_animation.png" width="250"/>
 
 1. Select the tool tip reference
 2. Select Object > Animation > Clear Keyframes
