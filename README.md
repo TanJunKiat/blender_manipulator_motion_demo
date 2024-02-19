@@ -141,16 +141,15 @@ Since all the joints of a manipulator are rotaries, all the axes in the limit ro
 | ------------- | ------------- |------------- |
 
 # Examples
+
 ### Pick and Place
-<img src="/universal_robots/ur3/Animation/gifmaker_me.gif" width="250" height="250"/>
+<img src="/universal_robots/ur3/Animation/gifmaker_me.gif" width="200"/>
 
 ### Rotating about a point
-<img src="/universal_robots/ur5/Animation/gifmaker_me.gif" width="250" height="250"/>
+<img src="/universal_robots/ur5/Animation/gifmaker_me.gif" width="200"/>
 
 ### Scanning
-<img src="/ufactory/xarm6/Animation/gifmaker_me.gif" width="250" height="250"/>
-<img src="/universal_robots/ur10/Animation/gifmaker_me.gif" width="250" height="250"/>
-<img src="/abb/irb120/Animation/gifmaker_me.gif" width="250" height="250"/>
+<img src="/ufactory/xarm6/Animation/gifmaker_me.gif" width="200"/> <img src="/universal_robots/ur10/Animation/gifmaker_me.gif" width="200"/> <img src="/abb/irb120/Animation/gifmaker_me.gif" width="200"/>
 
 # Add your own custom robotic arm
 
