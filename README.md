@@ -108,6 +108,12 @@ The rotation of a joint is by default about the Y-axis (direction from head to t
 
 Since all the joints of a manipulator are rotaries, all the axes in the limit rotation constraint should be set to true and zeros.
 
+## Setting up multiple robotic arms in one environment
+- Import robotic arms using the "Link" or "Append" feature in Blender
+
+> [!NOTE]
+> "Link" is to import items from a blender file without breaking the connection; meaning any changes in the referred blender file will update the main file. "Append" is to create a copy of the items from the referred file to the main file. This will allow users to manipulate the items without affecting the original referred file, which is preferred.
+
 # Useful Tips
 ## Clearing animations
 <img src="/resources/useful_tips/clearing_animations/1_clear_animation.png" width="250"/>
