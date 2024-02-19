@@ -21,7 +21,7 @@ git clone
 
 ## Moving via tool tip reference
 1. Creating tool tip reference
-<img src="/resources/getting_started/moving_via_tool_tip/1_insert_reference.png"  height="250"/>
+<img src="/resources/getting_started/1_moving_via_tool_tip/1_insert_reference.png"  height="250"/>
 For the tool tip, we will be using either of these 3, a plain axes, an arrow axes, or a single arrow. 
 
 > [!NOTE]
@@ -31,12 +31,12 @@ For the tool tip, we will be using either of these 3, a plain axes, an arrow axe
 > The initial location of the tool tip reference should be conicide with the initial position of the physical tool tip, while the robotic arm is in its neutral state.
 
 2. Linking tool tip reference to armature
-<img src="/resources/getting_started/moving_via_tool_tip/2_linking_tool_tip_reference.png" height="250"/>
+<img src="/resources/getting_started/1_moving_via_tool_tip/2_linking_tool_tip_reference.png" height="250"/>
 
 - Under "Bone constraint properties" of the last bone, there should be a Inverse Kinematics (IK) element. Change the "Target" to the tool tip reference object that you just created
 
 3. Moving tool tip reference
-<img src="/resources/getting_started/moving_via_tool_tip/3_moving_tool_tip.png" height="250"/>
+<img src="/resources/getting_started/1_moving_via_tool_tip/3_moving_tool_tip.png" height="250"/>
 The tool tip reference position can be changed under the "Object properties". The location and rotation is at the global frame. Another way is to change the "Delta Transformation" instead to do it in the intial position of the tool tip reference.
 
 > [!TIP]
